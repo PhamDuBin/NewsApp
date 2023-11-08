@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/half_circle_background"
+        tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtChaoMung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="104dp"
+        android:text="CHÀO MỪNG"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDangKyDeTiepTuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginBottom="561dp"
+        android:text="ĐĂNG KÝ ĐỂ TIẾP TỤC"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/txtTenDangNhap"
+        android:layout_width="378dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginBottom="388dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Tên Đăng Nhập"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtMatKhau"
+        android:layout_width="378dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="376dp"
+        android:ems="10"
+        android:scrollbarSize="25dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:hint="Mật Khẩu"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:passwordToggleTint="@color/white" />
+
+    <EditText
+        android:id="@+id/txtNhapLaiMatKhau"
+        android:layout_width="377dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="473dp"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Nhập Lại Mật Khẩu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginBottom="107dp"
+        android:backgroundTint="#F4E172"
+        android:text="Đăng Ký"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtDaCoTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="645dp"
+        android:text="Đã có tài khoản !"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

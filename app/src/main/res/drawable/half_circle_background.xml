@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#FFF0CD0A"
+        android:centerColor="#FFF4E172"
+        android:endColor="#FFFFFF"
+        android:angle="270" />
+    <corners android:radius="0dp" /> <!-- Bán kính của bo viền, 0dp để không có bo viền -->
+</shape>
